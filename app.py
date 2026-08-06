@@ -36,4 +36,4 @@ if st.button('fetch weather data'):
         col3.metric('wind_speed',f'🌪️{wind_speed}m/s')
         col4.metric('weather',f'☔{weather}')
     else:
-        st.error('city')
+        st.error('city name')
